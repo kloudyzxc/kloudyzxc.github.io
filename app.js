@@ -11,8 +11,9 @@ window.addEventListener("load", ()=> {
             long = position.coords.longitude;
             lat = position.coords.latitude;
 
-            const proxy = 'http://cors-anywhere.herokuapp.com/';
-            const api = `${proxy}https://api.darksky.net/forecast/fd9d9c6418c23d94745b836767721ad1/${lat},${long}`;
+            //const proxy = 'http://cors-anywhere.herokuapp.com/';
+           // const api = `${proxy}https://api.darksky.net/forecast/fd9d9c6418c23d94745b836767721ad1/${lat},${long}`;
+           const api = `https://api.darksky.net/forecast/fd9d9c6418c23d94745b836767721ad1/${lat},${long}`;
             //const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=48930bedade24970fe4d3425cefb16dc`
             fetch(api)
                 .then(response =>{
