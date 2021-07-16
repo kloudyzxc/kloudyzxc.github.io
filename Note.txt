@@ -1,0 +1,4 @@
+Matthew M. Martin
+
+Title of the Project: JavaScript Weather Forecast
+This project is designed to tell the current temperature and weather of your current location/timezone.
